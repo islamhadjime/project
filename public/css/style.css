@@ -1,0 +1,233 @@
+
+body{
+
+  background-color: #f1f1f1;
+}
+
+*{
+
+  box-sizing: border-box;
+  padding: 0;
+  margin:  0;
+}
+
+/*
+.container{
+  width: 901px;
+  margin: 0 auto;;
+} */
+
+header{
+  width: 100%;
+  background: black;
+  color: #fafafa;
+  z-index: 1;
+  padding: 8px 0 8px 0;
+  border-radius: 25px;
+  position: fixed;
+  opacity: 0.7;
+
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+
+}
+
+.log a{
+  font-size: 40px;
+  text-decoration:none;
+  color: #fff;
+  font-weight: bold;
+
+}
+
+.menu {
+  list-style: none;
+  margin-left: 70%;
+}
+.menu li a{
+
+    text-decoration: none;
+}
+
+.doc-button{
+  display: block;
+  width: 40px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  background-color: #007bff;
+  border-radius: 10px;
+}
+
+
+/*  Index */
+
+.index{
+   height: 100vh;
+   background-image: url("../img/a9se8wszrfu.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.public{
+  margin: 30%;
+
+}
+
+
+
+
+.public h1{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Russo One', sans-serif;
+  text-transform: uppercase;
+  color: #eeeeee;
+  opacity: 0.8;
+}
+
+.public form{
+  margin-top: 40px;
+
+}
+.public .button{
+  display: inline-block;
+  width: 100px;
+  height: 35px;
+
+  text-align: center;
+  border-radius: 10px;
+
+  color: white;
+
+  margin-left: 20px;
+  font-family: 'Russo One', sans-serif;
+  text-transform: uppercase;
+}
+
+
+.public form input{
+  width: 300px;
+  height: 40px;
+}
+
+
+.cont-title{
+  width: 400px;
+  margin-top: 200px;
+}
+
+.cont-href{
+  display:  flex;
+}
+
+
+.card_result{
+  padding-top: 200px;
+}
+.card_index{
+  margin: 10px;
+}
+
+.doc-title{
+  margin-top: 200px;
+  width: 400px;
+}
+
+#footer {
+    position: fixed;
+    left: 0; bottom: 0;
+    padding: 10px;
+    color: #9a98a3;
+    opacity: 0.7;
+    width: 100%;
+   }
+
+
+
+
+
+
+@media screen and (max-width:500px) {
+
+
+  header{
+    max-width: 600px;
+    height: 70px;
+  }
+
+  .log{
+      margin-bottom: 10px;
+  }
+  .log a{
+    font-size: 30px;
+    }
+    .menu{
+        margin-left: 45%;
+        margin-top: 10px;
+    }
+    .doc-button{
+      display: block;
+      width: 40px;
+      text-align: center;
+      background-color: #007bff;
+      border-radius: 10px;
+    }
+
+
+   section{
+     max-width: 500px;
+
+
+   }
+   .public{
+     margin: 0;
+     width: 200px;
+     text-align: center;
+     margin-top: 210px;
+     margin-left: 30px;
+   }
+   .public h1{
+     font-size: 25px;
+
+   }
+
+   .public .button{
+      margin-top: 15px;
+      margin-left: 0;
+   }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
