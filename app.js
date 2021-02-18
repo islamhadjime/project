@@ -18,10 +18,21 @@ hbs.registerPartials(__dirname + "/views/partials");
 app.use("/",require("./router/homeRoutes"))
 
 
-
-mongoose.connect("mongodb://localhost:27017/postdb", { useNewUrlParser: true }, function(err){
-    if(err) return console.log(err);
-    app.listen(5000, function(){
-        console.log("Сервер ожидает подключения...");
-    });
+async function main(){
+    
+    try{
+        await mongoose.connect("mongodb://localhost:27017/postdb", { useNewUrlParser: true })
+         app.listen(5000, function(){
+            console.log("Сервер ожидает подключения...");
+        });
+    }
+    catch err{
+        throw err
+    }
+            
 });
+
+}
+
+main()
+
