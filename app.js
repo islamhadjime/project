@@ -26,8 +26,8 @@ async function main(){
             console.log("Сервер ожидает подключения...");
         });
     }
-    catch err{
-        throw err
+    catch{
+        throw error;
     }
             
 });
